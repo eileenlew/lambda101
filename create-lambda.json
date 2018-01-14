@@ -1,0 +1,10 @@
+{
+    "FunctionName": "HelloPython", 
+    "Runtime": "python3.6", 
+    "Role": "arn:aws:iam::815083623372:role/lambda-test", 
+    "Handler": "handler.hello", 
+    "Code": {
+        "S3Bucket": "test-lambda-17dec17", 
+        "S3Key": "handler.zip" 
+    }
+}
